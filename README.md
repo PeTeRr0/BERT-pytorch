@@ -27,7 +27,7 @@ Pytorch implementation of the paper [BERT: Pre-training of Deep Bidirectional Tr
 - **Parameter Updates**  
   - Fine-tune all pre-trained Transformer weights end-to-end along with the lightweight task heads.
 
-##Input Representation
+## Input Representation
 ![figure2](assets/figure2.png)
 - **Token Embeddings**  
   Learnable vectors for each vocabulary piece (e.g. `[CLS]`, “my”, “dog”, “##ing”, `[SEP]`).
